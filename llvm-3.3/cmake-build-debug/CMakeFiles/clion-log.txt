@@ -1,0 +1,135 @@
+/home/ccy/Documents/software/clion-2018.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3
+-- Could NOT find LibXml2 (missing: LIBXML2_LIBRARY LIBXML2_INCLUDE_DIR) 
+-- Target triple: x86_64-unknown-linux-gnu
+-- Native target architecture is X86
+-- Threads enabled.
+-- Building with -fPIC
+-- Constructing LLVMBuild project information
+-- Targeting AArch64
+-- Targeting ARM
+-- Targeting CppBackend
+-- Targeting Hexagon
+-- Targeting Mips
+-- Targeting MBlaze
+-- Targeting MSP430
+-- Targeting NVPTX
+-- Targeting PowerPC
+-- Targeting Sparc
+-- Targeting SystemZ
+-- Targeting X86
+-- Targeting XCore
+CMake Warning (dev) at projects/compiler-rt/cmake/Modules/AddCompilerRT.cmake:58 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target
+  "clang_rt.asan-x86_64".  Use the target name directly with
+  add_custom_command, or use the generator expression $<TARGET_FILE>, as
+  appropriate.
+
+Call Stack (most recent call first):
+  projects/compiler-rt/lib/asan/CMakeLists.txt:83 (add_compiler_rt_static_runtime)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at projects/compiler-rt/cmake/Modules/AddCompilerRT.cmake:58 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "clang_rt.asan-i386".
+  Use the target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+Call Stack (most recent call first):
+  projects/compiler-rt/lib/asan/CMakeLists.txt:83 (add_compiler_rt_static_runtime)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at projects/compiler-rt/cmake/Modules/AddCompilerRT.cmake:58 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target
+  "clang_rt.ubsan-x86_64".  Use the target name directly with
+  add_custom_command, or use the generator expression $<TARGET_FILE>, as
+  appropriate.
+
+Call Stack (most recent call first):
+  projects/compiler-rt/lib/ubsan/CMakeLists.txt:35 (add_compiler_rt_static_runtime)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at projects/compiler-rt/cmake/Modules/AddCompilerRT.cmake:58 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target
+  "clang_rt.ubsan_cxx-x86_64".  Use the target name directly with
+  add_custom_command, or use the generator expression $<TARGET_FILE>, as
+  appropriate.
+
+Call Stack (most recent call first):
+  projects/compiler-rt/lib/ubsan/CMakeLists.txt:40 (add_compiler_rt_static_runtime)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at projects/compiler-rt/cmake/Modules/AddCompilerRT.cmake:58 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "clang_rt.ubsan-i386".
+  Use the target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+Call Stack (most recent call first):
+  projects/compiler-rt/lib/ubsan/CMakeLists.txt:35 (add_compiler_rt_static_runtime)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at projects/compiler-rt/cmake/Modules/AddCompilerRT.cmake:58 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target
+  "clang_rt.ubsan_cxx-i386".  Use the target name directly with
+  add_custom_command, or use the generator expression $<TARGET_FILE>, as
+  appropriate.
+
+Call Stack (most recent call first):
+  projects/compiler-rt/lib/ubsan/CMakeLists.txt:40 (add_compiler_rt_static_runtime)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at projects/compiler-rt/cmake/Modules/AddCompilerRT.cmake:58 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target
+  "clang_rt.tsan-x86_64".  Use the target name directly with
+  add_custom_command, or use the generator expression $<TARGET_FILE>, as
+  appropriate.
+
+Call Stack (most recent call first):
+  projects/compiler-rt/lib/tsan/rtl/CMakeLists.txt:42 (add_compiler_rt_static_runtime)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at projects/compiler-rt/cmake/Modules/AddCompilerRT.cmake:58 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target
+  "clang_rt.msan-x86_64".  Use the target name directly with
+  add_custom_command, or use the generator expression $<TARGET_FILE>, as
+  appropriate.
+
+Call Stack (most recent call first):
+  projects/compiler-rt/lib/msan/CMakeLists.txt:23 (add_compiler_rt_static_runtime)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Clang version: 3.3
+-- Could NOT find Subversion (missing: Subversion_SVN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug

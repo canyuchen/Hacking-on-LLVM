@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../../../lib/libmigrateCore.a  CMakeFiles/migrateCore.dir/Transforms.cpp.o CMakeFiles/migrateCore.dir/Transform.cpp.o CMakeFiles/migrateCore.dir/IncludeExcludeInfo.cpp.o
+/usr/bin/ranlib ../../../../../../lib/libmigrateCore.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../libLLVMMBlazeDesc.a  CMakeFiles/LLVMMBlazeDesc.dir/MBlazeAsmBackend.cpp.o CMakeFiles/LLVMMBlazeDesc.dir/MBlazeMCAsmInfo.cpp.o CMakeFiles/LLVMMBlazeDesc.dir/MBlazeMCCodeEmitter.cpp.o CMakeFiles/LLVMMBlazeDesc.dir/MBlazeMCTargetDesc.cpp.o CMakeFiles/LLVMMBlazeDesc.dir/MBlazeELFObjectWriter.cpp.o
+/usr/bin/ranlib ../../../libLLVMMBlazeDesc.a

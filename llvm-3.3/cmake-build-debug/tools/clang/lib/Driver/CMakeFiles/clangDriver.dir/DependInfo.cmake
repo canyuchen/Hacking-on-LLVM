@@ -1,0 +1,58 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Action.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Action.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Arg.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Arg.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/ArgList.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/ArgList.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/CC1AsOptions.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/CC1AsOptions.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Compilation.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Compilation.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Driver.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Driver.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/DriverOptions.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/DriverOptions.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Job.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Job.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/OptTable.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/OptTable.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Option.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Option.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Phases.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Phases.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Tool.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Tool.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/ToolChain.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/ToolChain.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/ToolChains.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/ToolChains.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Tools.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Tools.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/Types.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/Types.cpp.o"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/tools/clang/lib/Driver/WindowsToolChain.cpp" "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Driver/CMakeFiles/clangDriver.dir/WindowsToolChain.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "CLANG_ENABLE_ARCMT"
+  "CLANG_ENABLE_REWRITER"
+  "CLANG_ENABLE_STATIC_ANALYZER"
+  "_DEBUG"
+  "_GNU_SOURCE"
+  "__STDC_CONSTANT_MACROS"
+  "__STDC_FORMAT_MACROS"
+  "__STDC_LIMIT_MACROS"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "tools/clang/lib/Driver"
+  "../tools/clang/lib/Driver"
+  "../tools/clang/include"
+  "tools/clang/include"
+  "include"
+  "../include"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/tools/clang/lib/Basic/CMakeFiles/clangBasic.dir/DependInfo.cmake"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/lib/MC/CMakeFiles/LLVMMC.dir/DependInfo.cmake"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/lib/Object/CMakeFiles/LLVMObject.dir/DependInfo.cmake"
+  "/home/ccy/Desktop/experiment/compile/lab1/sever/llvm-3.3/cmake-build-debug/lib/Support/CMakeFiles/LLVMSupport.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/clang/3.3/lib/linux/libclang_rt.ubsan-i386.a  CMakeFiles/clang_rt.ubsan-i386.dir/ubsan_diag.cc.o CMakeFiles/clang_rt.ubsan-i386.dir/ubsan_handlers.cc.o CMakeFiles/clang_rt.ubsan-i386.dir/ubsan_value.cc.o
+/usr/bin/ranlib ../../../../lib/clang/3.3/lib/linux/libclang_rt.ubsan-i386.a

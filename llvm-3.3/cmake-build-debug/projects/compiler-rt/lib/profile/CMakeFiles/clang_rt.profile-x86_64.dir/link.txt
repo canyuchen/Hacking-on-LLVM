@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/clang/3.3/lib/linux/libclang_rt.profile-x86_64.a  CMakeFiles/clang_rt.profile-x86_64.dir/GCDAProfiling.c.o
+/usr/bin/ranlib ../../../../lib/clang/3.3/lib/linux/libclang_rt.profile-x86_64.a

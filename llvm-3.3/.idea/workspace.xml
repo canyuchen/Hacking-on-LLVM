@@ -1,0 +1,2507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="LLVM" targetName="ClangDiagnosticSema" />
+      <config projectName="LLVM" targetName="LexTests" />
+      <config projectName="LLVM" targetName="gtest" />
+      <config projectName="LLVM" targetName="LLVMX86AsmPrinter" />
+      <config projectName="LLVM" targetName="llvm-nm" />
+      <config projectName="LLVM" targetName="llvm-size" />
+      <config projectName="LLVM" targetName="ClangDiagnosticParse" />
+      <config projectName="LLVM" targetName="intrinsics_gen" />
+      <config projectName="LLVM" targetName="LLVMMSP430AsmPrinter" />
+      <config projectName="LLVM" targetName="llvm-rtdyld" />
+      <config projectName="LLVM" targetName="clangSerialization" />
+      <config projectName="LLVM" targetName="MipsCommonTableGen" />
+      <config projectName="LLVM" targetName="libclang" />
+      <config projectName="LLVM" targetName="LLVMSystemZAsmPrinter" />
+      <config projectName="LLVM" targetName="clang_rt.asan-x86_64" />
+      <config projectName="LLVM" targetName="check-llvm" />
+      <config projectName="LLVM" targetName="llvm-config" />
+      <config projectName="LLVM" targetName="LLVMNVPTXCodeGen" />
+      <config projectName="LLVM" targetName="clangAST" />
+      <config projectName="LLVM" targetName="LLVMSparcInfo" />
+      <config projectName="LLVM" targetName="NVPTXCommonTableGen" />
+      <config projectName="LLVM" targetName="LLVMJIT" />
+      <config projectName="LLVM" targetName="clang" />
+      <config projectName="LLVM" targetName="yaml-bench" />
+      <config projectName="LLVM" targetName="LLVMSystemZInfo" />
+      <config projectName="LLVM" targetName="clangARCMigrate" />
+      <config projectName="LLVM" targetName="PrintFunctionNames" />
+      <config projectName="LLVM" targetName="LLVMMipsInfo" />
+      <config projectName="LLVM" targetName="ToolingTests" />
+      <config projectName="LLVM" targetName="ClangDiagnosticDriver" />
+      <config projectName="LLVM" targetName="clang-test" />
+      <config projectName="LLVM" targetName="ClangAttrTemplateInstantiate" />
+      <config projectName="LLVM" targetName="ClangDiagnosticIndexName" />
+      <config projectName="LLVM" targetName="ARMCommonTableGen" />
+      <config projectName="LLVM" targetName="LLVMXCoreAsmPrinter" />
+      <config projectName="LLVM" targetName="LLVMSparcCodeGen" />
+      <config projectName="LLVM" targetName="llvm-tblgen" />
+      <config projectName="LLVM" targetName="check-tsan" />
+      <config projectName="LLVM" targetName="FileUpdate" />
+      <config projectName="LLVM" targetName="LLVMRuntimeDyld" />
+      <config projectName="LLVM" targetName="Cpp11MigrateTests" />
+      <config projectName="LLVM" targetName="clang_rt.i386" />
+      <config projectName="LLVM" targetName="LLVMAArch64Disassembler" />
+      <config projectName="LLVM" targetName="ClangSACheckers" />
+      <config projectName="LLVM" targetName="LLVMAArch64CodeGen" />
+      <config projectName="LLVM" targetName="ClangCommentCommandInfo" />
+      <config projectName="LLVM" targetName="FrontendTests" />
+      <config projectName="LLVM" targetName="LLVMMCJIT" />
+      <config projectName="LLVM" targetName="LLVMMipsAsmParser" />
+      <config projectName="LLVM" targetName="LLVMAArch64Desc" />
+      <config projectName="LLVM" targetName="diagtool" />
+      <config projectName="LLVM" targetName="SanitizerUnitTests" />
+      <config projectName="LLVM" targetName="LLVMLinker" />
+      <config projectName="LLVM" targetName="clang_rt.ubsan-i386" />
+      <config projectName="LLVM" targetName="ClangDiagnosticComment" />
+      <config projectName="LLVM" targetName="LLVMArchive" />
+      <config projectName="LLVM" targetName="PowerPCCommonTableGen" />
+      <config projectName="LLVM" targetName="c-arcmt-test" />
+      <config projectName="LLVM" targetName="LLVMARMAsmParser" />
+      <config projectName="LLVM" targetName="llvm-bcanalyzer" />
+      <config projectName="LLVM" targetName="LLVMPowerPCInfo" />
+      <config projectName="LLVM" targetName="LLVMX86CodeGen" />
+      <config projectName="LLVM" targetName="TsanUnitTest" />
+      <config projectName="LLVM" targetName="LLVMX86AsmParser" />
+      <config projectName="LLVM" targetName="LLVMTarget" />
+      <config projectName="LLVM" targetName="modularize" />
+      <config projectName="LLVM" targetName="libclang_static" />
+      <config projectName="LLVM" targetName="ClangAttrSpellings" />
+      <config projectName="LLVM" targetName="LLVMHexagonAsmPrinter" />
+      <config projectName="LLVM" targetName="ClangDiagnosticAST" />
+      <config projectName="LLVM" targetName="AnalysisTests" />
+      <config projectName="LLVM" targetName="LLVMTransformUtils" />
+      <config projectName="LLVM" targetName="LLVMXCoreDisassembler" />
+      <config projectName="LLVM" targetName="Sanitizer-i386-Test" />
+      <config projectName="LLVM" targetName="RTSanitizerCommon.test.i386" />
+      <config projectName="LLVM" targetName="llvm-mcmarkup" />
+      <config projectName="LLVM" targetName="llvm-dis" />
+      <config projectName="LLVM" targetName="LLVMCppBackendInfo" />
+      <config projectName="LLVM" targetName="yaml2obj" />
+      <config projectName="LLVM" targetName="llvm-dwarfdump" />
+      <config projectName="LLVM" targetName="ADTTests" />
+      <config projectName="LLVM" targetName="LLVMAnalysis" />
+      <config projectName="LLVM" targetName="ClangCC1AsOptions" />
+      <config projectName="LLVM" targetName="LTO_static" />
+      <config projectName="LLVM" targetName="LLVMMBlazeDesc" />
+      <config projectName="LLVM" targetName="ASTMatchersTests" />
+      <config projectName="LLVM" targetName="cpp11-migrate" />
+      <config projectName="LLVM" targetName="LLVMInstCombine" />
+      <config projectName="LLVM" targetName="llvm-link" />
+      <config projectName="LLVM" targetName="Asan-i386-Benchmark" />
+      <config projectName="LLVM" targetName="MSP430CommonTableGen" />
+      <config projectName="LLVM" targetName="LLVMMSP430Desc" />
+      <config projectName="LLVM" targetName="ClangUnitTests" />
+      <config projectName="LLVM" targetName="ClangAttrImpl" />
+      <config projectName="LLVM" targetName="check-all" />
+      <config projectName="LLVM" targetName="clangTooling" />
+      <config projectName="LLVM" targetName="LLVMX86Info" />
+      <config projectName="LLVM" targetName="LLVMX86Disassembler" />
+      <config projectName="LLVM" targetName="LLVMARMAsmPrinter" />
+      <config projectName="LLVM" targetName="LLVMMBlazeAsmPrinter" />
+      <config projectName="LLVM" targetName="BrainF" />
+      <config projectName="LLVM" targetName="LLVMVectorize" />
+      <config projectName="LLVM" targetName="BasicTests" />
+      <config projectName="LLVM" targetName="count" />
+      <config projectName="LLVM" targetName="ClangAttrDump" />
+      <config projectName="LLVM" targetName="check-sanitizer" />
+      <config projectName="LLVM" targetName="clang-interpreter" />
+      <config projectName="LLVM" targetName="Kaleidoscope-Ch5" />
+      <config projectName="LLVM" targetName="ClangAttrPCHWrite" />
+      <config projectName="LLVM" targetName="remove-cstr-calls" />
+      <config projectName="LLVM" targetName="LLVMMCDisassembler" />
+      <config projectName="LLVM" targetName="clang_rt.ubsan_cxx-i386" />
+      <config projectName="LLVM" targetName="clang_rt.x86_64" />
+      <config projectName="LLVM" targetName="ModuleMaker" />
+      <config projectName="LLVM" targetName="ClangAttrExprArgs" />
+      <config projectName="LLVM" targetName="clang_rt.profile-i386" />
+      <config projectName="LLVM" targetName="macho-dump" />
+      <config projectName="LLVM" targetName="RTInterception.i386" />
+      <config projectName="LLVM" targetName="SparcCommonTableGen" />
+      <config projectName="LLVM" targetName="LLVMAsmPrinter" />
+      <config projectName="LLVM" targetName="LLVMARMDesc" />
+      <config projectName="LLVM" targetName="clang_rt.ubsan_cxx-x86_64" />
+      <config projectName="LLVM" targetName="clang_rt.msan-x86_64" />
+      <config projectName="LLVM" targetName="LLVMNVPTXDesc" />
+      <config projectName="LLVM" targetName="AsanBenchmarks" />
+      <config projectName="LLVM" targetName="LLVMSystemZAsmParser" />
+      <config projectName="LLVM" targetName="LLVMObject" />
+      <config projectName="LLVM" targetName="ClangAttrLateParsed" />
+      <config projectName="LLVM" targetName="ClangCommentHTMLNamedCharacterReferences" />
+      <config projectName="LLVM" targetName="LLVMSparcDesc" />
+      <config projectName="LLVM" targetName="LLVMXCoreDesc" />
+      <config projectName="LLVM" targetName="LLVMX86Desc" />
+      <config projectName="LLVM" targetName="LLVMOption" />
+      <config projectName="LLVM" targetName="lli" />
+      <config projectName="LLVM" targetName="FormatTests" />
+      <config projectName="LLVM" targetName="MsanUnitTests" />
+      <config projectName="LLVM" targetName="llc" />
+      <config projectName="LLVM" targetName="clangLex" />
+      <config projectName="LLVM" targetName="LLVMBitWriter" />
+      <config projectName="LLVM" targetName="LLVMPowerPCAsmPrinter" />
+      <config projectName="LLVM" targetName="LLVMHexagonDesc" />
+      <config projectName="LLVM" targetName="LLVMMSP430CodeGen" />
+      <config projectName="LLVM" targetName="LLVMXCoreCodeGen" />
+      <config projectName="LLVM" targetName="LLVMMBlazeAsmParser" />
+      <config projectName="LLVM" targetName="LLVMPowerPCCodeGen" />
+      <config projectName="LLVM" targetName="Asan-x86_64-Benchmark" />
+      <config projectName="LLVM" targetName="clangStaticAnalyzerCheckers" />
+      <config projectName="LLVM" targetName="LLVMXCoreInfo" />
+      <config projectName="LLVM" targetName="clangBasic" />
+      <config projectName="LLVM" targetName="clangCodeGen" />
+      <config projectName="LLVM" targetName="FileCheck" />
+      <config projectName="LLVM" targetName="LLVMPowerPCAsmParser" />
+      <config projectName="LLVM" targetName="HexagonCommonTableGen" />
+      <config projectName="LLVM" targetName="RTSanitizerCommon.x86_64" />
+      <config projectName="LLVM" targetName="LLVMSelectionDAG" />
+      <config projectName="LLVM" targetName="Fibonacci" />
+      <config projectName="LLVM" targetName="bugpoint" />
+      <config projectName="LLVM" targetName="llvm-objdump" />
+      <config projectName="LLVM" targetName="ClangStmtNodes" />
+      <config projectName="LLVM" targetName="migrateCore" />
+      <config projectName="LLVM" targetName="clang-tblgen" />
+      <config projectName="LLVM" targetName="clangFrontend" />
+      <config projectName="LLVM" targetName="SampleAnalyzerPlugin" />
+      <config projectName="LLVM" targetName="LLVMNVPTXAsmPrinter" />
+      <config projectName="LLVM" targetName="LLVMHexagonCodeGen" />
+      <config projectName="LLVM" targetName="ClangDiagnosticFrontend" />
+      <config projectName="LLVM" targetName="clang-format" />
+      <config projectName="LLVM" targetName="ExtraToolsUnitTests" />
+      <config projectName="LLVM" targetName="llvm-prof" />
+      <config projectName="LLVM" targetName="obj2yaml" />
+      <config projectName="LLVM" targetName="RTSanitizerCommon.i386" />
+      <config projectName="LLVM" targetName="ClangAttrPCHRead" />
+      <config projectName="LLVM" targetName="llvm-as" />
+      <config projectName="LLVM" targetName="llvm-ar" />
+      <config projectName="LLVM" targetName="profile_rt-shared" />
+      <config projectName="LLVM" targetName="OptionTests" />
+      <config projectName="LLVM" targetName="LLVMScalarOpts" />
+      <config projectName="LLVM" targetName="SupportTests" />
+      <config projectName="LLVM" targetName="LLVMAArch64Utils" />
+      <config projectName="LLVM" targetName="clangDriver" />
+      <config projectName="LLVM" targetName="LLVMCodeGen" />
+      <config projectName="LLVM" targetName="ClangDiagnosticGroups" />
+      <config projectName="LLVM" targetName="profile_rt-static" />
+      <config projectName="LLVM" targetName="llvm-readobj" />
+      <config projectName="LLVM" targetName="LLVMCore" />
+      <config projectName="LLVM" targetName="LLVMIRReader" />
+      <config projectName="LLVM" targetName="ClangDiagnosticLex" />
+      <config projectName="LLVM" targetName="llvm-cov" />
+      <config projectName="LLVM" targetName="MCJITTests" />
+      <config projectName="LLVM" targetName="clangASTMatchers" />
+      <config projectName="LLVM" targetName="llvm-extract" />
+      <config projectName="LLVM" targetName="BitcodeTests" />
+      <config projectName="LLVM" targetName="AArch64CommonTableGen" />
+      <config projectName="LLVM" targetName="check-msan" />
+      <config projectName="LLVM" targetName="SystemZCommonTableGen" />
+      <config projectName="LLVM" targetName="clangRewriteCore" />
+      <config projectName="LLVM" targetName="LLVMHello" />
+      <config projectName="LLVM" targetName="Asan-x86_64-Test" />
+      <config projectName="LLVM" targetName="UtilsTests" />
+      <config projectName="LLVM" targetName="gtest_main" />
+      <config projectName="LLVM" targetName="TsanUnitTests" />
+      <config projectName="LLVM" targetName="clangStaticAnalyzerFrontend" />
+      <config projectName="LLVM" targetName="ClangAttrSpellingListIndex" />
+      <config projectName="LLVM" targetName="clangRewriteFrontend" />
+      <config projectName="LLVM" targetName="LLVMInstrumentation" />
+      <config projectName="LLVM" targetName="LLVMMipsDesc" />
+      <config projectName="LLVM" targetName="LLVMSystemZDesc" />
+      <config projectName="LLVM" targetName="clang_rt.san-i386" />
+      <config projectName="LLVM" targetName="ExecutionEngineTests" />
+      <config projectName="LLVM" targetName="AsanUnitTests" />
+      <config projectName="LLVM" targetName="clangEdit" />
+      <config projectName="LLVM" targetName="LLVMARMDisassembler" />
+      <config projectName="LLVM" targetName="clang_rt.tsan-x86_64" />
+      <config projectName="LLVM" targetName="IRTests" />
+      <config projectName="LLVM" targetName="llvm-ranlib" />
+      <config projectName="LLVM" targetName="LLVMAsmParser" />
+      <config projectName="LLVM" targetName="clangFrontendTool" />
+      <config projectName="LLVM" targetName="ClangDiagnosticSerialization" />
+      <config projectName="LLVM" targetName="not" />
+      <config projectName="LLVM" targetName="arcmt-test" />
+      <config projectName="LLVM" targetName="ClangCommentHTMLTags" />
+      <config projectName="LLVM" targetName="LLVMSupport" />
+      <config projectName="LLVM" targetName="LLVMInterpreter" />
+      <config projectName="LLVM" targetName="check-clang" />
+      <config projectName="LLVM" targetName="clang-check" />
+      <config projectName="LLVM" targetName="TsanRtlTest" />
+      <config projectName="LLVM" targetName="ClangAttrClasses" />
+      <config projectName="LLVM" targetName="check-ubsan" />
+      <config projectName="LLVM" targetName="clangAnalysis" />
+      <config projectName="LLVM" targetName="BugpointPasses" />
+      <config projectName="LLVM" targetName="MBlazeCommonTableGen" />
+      <config projectName="LLVM" targetName="RTInterception.x86_64" />
+      <config projectName="LLVM" targetName="ClangDiagnosticCommon" />
+      <config projectName="LLVM" targetName="RTSanitizerCommon.test.x86_64" />
+      <config projectName="LLVM" targetName="ClangDiagnosticAnalysis" />
+      <config projectName="LLVM" targetName="llvm-diff" />
+      <config projectName="LLVM" targetName="ClangCommentHTMLTagsProperties" />
+      <config projectName="LLVM" targetName="LLVMPowerPCDesc" />
+      <config projectName="LLVM" targetName="LLVMARMInfo" />
+      <config projectName="LLVM" targetName="LLVMObjCARCOpts" />
+      <config projectName="LLVM" targetName="clangFormat" />
+      <config projectName="LLVM" targetName="LLVMMipsDisassembler" />
+      <config projectName="LLVM" targetName="LLVMMipsAsmPrinter" />
+      <config projectName="LLVM" targetName="LLVMMipsCodeGen" />
+      <config projectName="LLVM" targetName="LLVMNVPTXInfo" />
+      <config projectName="LLVM" targetName="LLVMMBlazeInfo" />
+      <config projectName="LLVM" targetName="ClangDriverOptions" />
+      <config projectName="LLVM" targetName="Asan-i386-Test" />
+      <config projectName="LLVM" targetName="LLVMDebugInfo" />
+      <config projectName="LLVM" targetName="clangParse" />
+      <config projectName="LLVM" targetName="ClangAttrParsedAttrList" />
+      <config projectName="LLVM" targetName="Sanitizer-x86_64-Test" />
+      <config projectName="LLVM" targetName="tool-template" />
+      <config projectName="LLVM" targetName="LLVMBitReader" />
+      <config projectName="LLVM" targetName="LLVMTableGen" />
+      <config projectName="LLVM" targetName="XCoreCommonTableGen" />
+      <config projectName="LLVM" targetName="LLVMipa" />
+      <config projectName="LLVM" targetName="ParallelJIT" />
+      <config projectName="LLVM" targetName="clang-headers" />
+      <config projectName="LLVM" targetName="ClangAttrList" />
+      <config projectName="LLVM" targetName="LLVMAArch64Info" />
+      <config projectName="LLVM" targetName="HowToUseJIT" />
+      <config projectName="LLVM" targetName="check-asan" />
+      <config projectName="LLVM" targetName="llvm-mc" />
+      <config projectName="LLVM" targetName="llvm-symbolizer" />
+      <config projectName="LLVM" targetName="c-index-test" />
+      <config projectName="LLVM" targetName="LLVMAArch64AsmPrinter" />
+      <config projectName="LLVM" targetName="DebugInfoTests" />
+      <config projectName="LLVM" targetName="ClangCommentCommandList" />
+      <config projectName="LLVM" targetName="X86CommonTableGen" />
+      <config projectName="LLVM" targetName="LLVMMC" />
+      <config projectName="LLVM" targetName="LTO" />
+      <config projectName="LLVM" targetName="clangStaticAnalyzerCore" />
+      <config projectName="LLVM" targetName="LLVMARMCodeGen" />
+      <config projectName="LLVM" targetName="LLVMHexagonInfo" />
+      <config projectName="LLVM" targetName="LLVMAArch64AsmParser" />
+      <config projectName="LLVM" targetName="clang_rt.asan-i386" />
+      <config projectName="LLVM" targetName="ClangAttrParsedAttrKinds" />
+      <config projectName="LLVM" targetName="LLVMMBlazeCodeGen" />
+      <config projectName="LLVM" targetName="OptsTestTableGen" />
+      <config projectName="LLVM" targetName="LLVMMCParser" />
+      <config projectName="LLVM" targetName="LLVMMSP430Info" />
+      <config projectName="LLVM" targetName="llvm-stress" />
+      <config projectName="LLVM" targetName="ExceptionDemo" />
+      <config projectName="LLVM" targetName="check" />
+      <config projectName="LLVM" targetName="clang_rt.profile-x86_64" />
+      <config projectName="LLVM" targetName="clang_rt.san-x86_64" />
+      <config projectName="LLVM" targetName="clang_rt.ubsan-x86_64" />
+      <config projectName="LLVM" targetName="LLVMSystemZCodeGen" />
+      <config projectName="LLVM" targetName="compiler-rt-headers" />
+      <config projectName="LLVM" targetName="ClangARMNeon" />
+      <config projectName="LLVM" targetName="LLVMMBlazeDisassembler" />
+      <config projectName="LLVM" targetName="LLVMCppBackendCodeGen" />
+      <config projectName="LLVM" targetName="opt" />
+      <config projectName="LLVM" targetName="LLVMipo" />
+      <config projectName="LLVM" targetName="check-clang-tools" />
+      <config projectName="LLVM" targetName="ClangCommentNodes" />
+      <config projectName="LLVM" targetName="ASTTests" />
+      <config projectName="LLVM" targetName="ClangDeclNodes" />
+      <config projectName="LLVM" targetName="LLVMX86Utils" />
+      <config projectName="LLVM" targetName="Kaleidoscope-Ch7" />
+      <config projectName="LLVM" targetName="Kaleidoscope-Ch6" />
+      <config projectName="LLVM" targetName="JITTests" />
+      <config projectName="LLVM" targetName="Kaleidoscope-Ch4" />
+      <config projectName="LLVM" targetName="Kaleidoscope-Ch3" />
+      <config projectName="LLVM" targetName="Kaleidoscope-Ch2" />
+      <config projectName="LLVM" targetName="clangSema" />
+      <config projectName="LLVM" targetName="LLVMExecutionEngine" />
+      <config projectName="LLVM" targetName="UnitTests" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c7b57a4-349a-48c9-9ae4-cdecee979431" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-38454957">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.42" value="2" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.99" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Makefile" value="3" />
+          <entry key="cpp" value="6" />
+          <entry key="exports" value="3" />
+          <entry key="h" value="2" />
+          <entry key="txt" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="7" />
+          <entry key="ObjectiveC" value="8" />
+          <entry key="PLAIN_TEXT" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="11" />
+          <entry key="txt" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="19" />
+          <entry key="ObjectiveC" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/clang/lib/Parse/ParsePragma.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1800">
+              <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/clang/include/clang/Basic/TokenKinds.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PragmaHandler</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/Transforms/MyHello/MyHello.exports" />
+        <option value="$PROJECT_DIR$/lib/Transforms/MyHello/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lib/Transforms/MyHello/MyHello.cpp" />
+        <option value="$PROJECT_DIR$/lib/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/lib/Transforms/CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LLVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="llvm-3.3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LLVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="llvm-3.3" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LLVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="llvm-3.3" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="clang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LLVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="llvm-3.3" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="clang" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LLVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="llvm-3.3" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="clang" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Parse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LLVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="pramahandler&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BrainF">
+    <configuration name="ADTTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ADTTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="ADTTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ASTMatchersTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ASTMatchersTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="ASTMatchersTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ASTTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ASTTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="ASTTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnalysisTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="AnalysisTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="AnalysisTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="BasicTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="BasicTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BitcodeTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="BitcodeTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="BitcodeTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cpp11MigrateTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Cpp11MigrateTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="Cpp11MigrateTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DebugInfoTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="DebugInfoTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="DebugInfoTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutionEngineTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ExecutionEngineTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="ExecutionEngineTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormatTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="FormatTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="FormatTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrontendTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="FrontendTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="FrontendTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IRTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="IRTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="IRTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JITTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="JITTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="JITTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LexTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LexTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="LexTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MCJITTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="MCJITTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="MCJITTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="OptionTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="OptionTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupportTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="SupportTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="SupportTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolingTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ToolingTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="ToolingTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TsanRtlTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="TsanRtlTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="TsanRtlTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TsanUnitTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="TsanUnitTest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="TsanUnitTest" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UtilsTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="UtilsTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="UtilsTests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AArch64CommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="AArch64CommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ARMCommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ARMCommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Asan-i386-Benchmark" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Asan-i386-Benchmark" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Asan-i386-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Asan-i386-Test" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Asan-x86_64-Benchmark" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Asan-x86_64-Benchmark" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Asan-x86_64-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Asan-x86_64-Test" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsanBenchmarks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="AsanBenchmarks" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsanUnitTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="AsanUnitTests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrainF" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="BrainF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="BrainF">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BugpointPasses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="BugpointPasses" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangARMNeon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangARMNeon" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrClasses" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrClasses" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrDump" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrDump" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrExprArgs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrExprArgs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrImpl" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrImpl" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrLateParsed" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrLateParsed" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrList" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrPCHRead" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrPCHRead" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrPCHWrite" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrPCHWrite" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrParsedAttrKinds" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrParsedAttrKinds" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrParsedAttrList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrParsedAttrList" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrSpellingListIndex" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrSpellingListIndex" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrSpellings" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrSpellings" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangAttrTemplateInstantiate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangAttrTemplateInstantiate" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangCC1AsOptions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangCC1AsOptions" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangCommentCommandInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangCommentCommandInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangCommentCommandList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangCommentCommandList" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangCommentHTMLNamedCharacterReferences" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangCommentHTMLNamedCharacterReferences" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangCommentHTMLTags" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangCommentHTMLTags" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangCommentHTMLTagsProperties" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangCommentHTMLTagsProperties" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangCommentNodes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangCommentNodes" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDeclNodes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDeclNodes" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticAST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticAST" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticAnalysis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticAnalysis" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticComment" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticComment" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticCommon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticCommon" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticDriver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticDriver" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticFrontend" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticFrontend" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticGroups" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticGroups" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticIndexName" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticIndexName" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticLex" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticLex" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticParse" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticParse" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticSema" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticSema" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDiagnosticSerialization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDiagnosticSerialization" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangDriverOptions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangDriverOptions" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangSACheckers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangSACheckers" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangStmtNodes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangStmtNodes" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClangUnitTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ClangUnitTests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExceptionDemo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ExceptionDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="ExceptionDemo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExtraToolsUnitTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ExtraToolsUnitTests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Fibonacci" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="Fibonacci">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileCheck" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="FileCheck" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="FileCheck">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUpdate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="FileUpdate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="FileUpdate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HexagonCommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="HexagonCommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HowToUseJIT" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="HowToUseJIT" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="HowToUseJIT">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kaleidoscope-Ch2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Kaleidoscope-Ch2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="Kaleidoscope-Ch2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kaleidoscope-Ch3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Kaleidoscope-Ch3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="Kaleidoscope-Ch3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kaleidoscope-Ch4" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Kaleidoscope-Ch4" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="Kaleidoscope-Ch4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kaleidoscope-Ch5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Kaleidoscope-Ch5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="Kaleidoscope-Ch5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kaleidoscope-Ch6" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Kaleidoscope-Ch6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="Kaleidoscope-Ch6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kaleidoscope-Ch7" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Kaleidoscope-Ch7" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="Kaleidoscope-Ch7">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAArch64AsmParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAArch64AsmParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAArch64AsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAArch64AsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAArch64CodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAArch64CodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAArch64Desc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAArch64Desc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAArch64Disassembler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAArch64Disassembler" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAArch64Info" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAArch64Info" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAArch64Utils" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAArch64Utils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMARMAsmParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMARMAsmParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMARMAsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMARMAsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMARMCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMARMCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMARMDesc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMARMDesc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMARMDisassembler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMARMDisassembler" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMARMInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMARMInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAnalysis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAnalysis" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMArchive" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMArchive" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAsmParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAsmParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMAsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMAsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMBitReader" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMBitReader" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMBitWriter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMBitWriter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMCore" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMCore" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMCppBackendCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMCppBackendCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMCppBackendInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMCppBackendInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMDebugInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMDebugInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMExecutionEngine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMExecutionEngine" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMHello" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMHello" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMHexagonAsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMHexagonAsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMHexagonCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMHexagonCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMHexagonDesc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMHexagonDesc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMHexagonInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMHexagonInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMIRReader" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMIRReader" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMInstCombine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMInstCombine" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMInstrumentation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMInstrumentation" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMInterpreter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMInterpreter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMJIT" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMJIT" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMLinker" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMLinker" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMBlazeAsmParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMBlazeAsmParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMBlazeAsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMBlazeAsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMBlazeCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMBlazeCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMBlazeDesc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMBlazeDesc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMBlazeDisassembler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMBlazeDisassembler" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMBlazeInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMBlazeInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMC" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMC" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMCDisassembler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMCDisassembler" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMCJIT" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMCJIT" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMCParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMCParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMSP430AsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMSP430AsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMSP430CodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMSP430CodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMSP430Desc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMSP430Desc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMSP430Info" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMSP430Info" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMipsAsmParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMipsAsmParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMipsAsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMipsAsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMipsCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMipsCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMipsDesc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMipsDesc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMipsDisassembler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMipsDisassembler" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMMipsInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMMipsInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMNVPTXAsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMNVPTXAsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMNVPTXCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMNVPTXCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMNVPTXDesc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMNVPTXDesc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMNVPTXInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMNVPTXInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMObjCARCOpts" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMObjCARCOpts" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMObject" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMObject" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMOption" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMOption" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMPowerPCAsmParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMPowerPCAsmParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMPowerPCAsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMPowerPCAsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMPowerPCCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMPowerPCCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMPowerPCDesc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMPowerPCDesc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMPowerPCInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMPowerPCInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMRuntimeDyld" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMRuntimeDyld" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMScalarOpts" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMScalarOpts" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSelectionDAG" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSelectionDAG" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSparcCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSparcCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSparcDesc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSparcDesc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSparcInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSparcInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSupport" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSupport" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSystemZAsmParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSystemZAsmParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSystemZAsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSystemZAsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSystemZCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSystemZCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSystemZDesc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSystemZDesc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMSystemZInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMSystemZInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMTarget" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMTarget" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMTransformUtils" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMTransformUtils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMVectorize" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMVectorize" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMX86AsmParser" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMX86AsmParser" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMX86AsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMX86AsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMX86CodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMX86CodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMX86Desc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMX86Desc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMX86Disassembler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMX86Disassembler" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMX86Info" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMX86Info" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMX86Utils" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMX86Utils" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMXCoreAsmPrinter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMXCoreAsmPrinter" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMXCoreCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMXCoreCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMXCoreDesc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMXCoreDesc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMXCoreDisassembler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMXCoreDisassembler" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMXCoreInfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMXCoreInfo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMipa" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMipa" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LLVMipo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LLVMipo" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LTO" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LTO" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LTO_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="LTO_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MBlazeCommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="MBlazeCommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MSP430CommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="MSP430CommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MipsCommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="MipsCommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleMaker" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ModuleMaker" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="ModuleMaker">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsanUnitTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="MsanUnitTests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NVPTXCommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="NVPTXCommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptsTestTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="OptsTestTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParallelJIT" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="ParallelJIT" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="ParallelJIT">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerPCCommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="PowerPCCommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintFunctionNames" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="PrintFunctionNames" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RTInterception.i386" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="RTInterception.i386" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RTInterception.x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="RTInterception.x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RTSanitizerCommon.i386" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="RTSanitizerCommon.i386" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RTSanitizerCommon.test.i386" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="RTSanitizerCommon.test.i386" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RTSanitizerCommon.test.x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="RTSanitizerCommon.test.x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RTSanitizerCommon.x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="RTSanitizerCommon.x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleAnalyzerPlugin" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="SampleAnalyzerPlugin" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sanitizer-i386-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Sanitizer-i386-Test" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sanitizer-x86_64-Test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="Sanitizer-x86_64-Test" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanitizerUnitTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="SanitizerUnitTests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparcCommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="SparcCommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemZCommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="SystemZCommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TsanUnitTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="TsanUnitTests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="UnitTests" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="X86CommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="X86CommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XCoreCommonTableGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="XCoreCommonTableGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arcmt-test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="arcmt-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="arcmt-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bugpoint" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="bugpoint" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="bugpoint">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c-arcmt-test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="c-arcmt-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="c-arcmt-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c-index-test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="c-index-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="c-index-test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-all" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check-all" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-asan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check-asan" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-clang-tools" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check-clang-tools" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-clang" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check-clang" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-llvm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check-llvm" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-msan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check-msan" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-sanitizer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check-sanitizer" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-tsan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check-tsan" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check-ubsan" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check-ubsan" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="check" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang-check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang-check" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="clang-check">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang-format" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang-format" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="clang-format">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang-headers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang-headers" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang-interpreter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang-interpreter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="clang-interpreter">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang-tblgen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang-tblgen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="clang-tblgen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang-test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang-test" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="clang">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangARCMigrate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangARCMigrate" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangAST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangAST" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangASTMatchers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangASTMatchers" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangAnalysis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangAnalysis" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangBasic" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangBasic" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangCodeGen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangCodeGen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangDriver" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangDriver" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangEdit" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangEdit" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangFormat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangFormat" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangFrontend" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangFrontend" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangFrontendTool" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangFrontendTool" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangLex" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangLex" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangParse" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangParse" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangRewriteCore" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangRewriteCore" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangRewriteFrontend" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangRewriteFrontend" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangSema" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangSema" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangSerialization" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangSerialization" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangStaticAnalyzerCheckers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangStaticAnalyzerCheckers" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangStaticAnalyzerCore" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangStaticAnalyzerCore" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangStaticAnalyzerFrontend" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangStaticAnalyzerFrontend" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clangTooling" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clangTooling" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.asan-i386" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.asan-i386" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.asan-x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.asan-x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.i386" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.i386" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.msan-x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.msan-x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.profile-i386" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.profile-i386" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.profile-x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.profile-x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.san-i386" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.san-i386" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.san-x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.san-x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.tsan-x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.tsan-x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.ubsan-i386" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.ubsan-i386" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.ubsan-x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.ubsan-x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.ubsan_cxx-i386" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.ubsan_cxx-i386" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.ubsan_cxx-x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.ubsan_cxx-x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clang_rt.x86_64" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="clang_rt.x86_64" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="compiler-rt-headers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="compiler-rt-headers" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="count" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="count" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="count">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cpp11-migrate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="cpp11-migrate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="cpp11-migrate">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="diagtool" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="diagtool" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="diagtool">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="intrinsics_gen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="intrinsics_gen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="libclang" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="libclang" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="libclang_static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="libclang_static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lli" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="lli" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="lli">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-ar" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-ar" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-ar">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-as" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-as" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-as">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-bcanalyzer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-bcanalyzer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-bcanalyzer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-config" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-config" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-config">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-cov" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-cov" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-cov">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-diff" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-diff" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-diff">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-dis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-dis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-dis">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-dwarfdump" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-dwarfdump" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-dwarfdump">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-extract" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-extract" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-extract">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-link" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-link" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-link">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-mc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-mc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-mc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-mcmarkup" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-mcmarkup" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-mcmarkup">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-nm" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-nm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-nm">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-objdump" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-objdump" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-objdump">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-prof" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-prof" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-prof">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-ranlib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-ranlib" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-ranlib">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-readobj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-readobj" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-readobj">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-rtdyld" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-rtdyld" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-rtdyld">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-size" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-size" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-size">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-stress" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-stress" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-stress">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-symbolizer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-symbolizer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-symbolizer">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="llvm-tblgen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="llvm-tblgen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="llvm-tblgen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="macho-dump" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="macho-dump" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="macho-dump">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="migrateCore" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="migrateCore" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="modularize" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="modularize" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="modularize">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="not" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="not" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="not">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="obj2yaml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="obj2yaml" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="obj2yaml">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="opt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="opt">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="profile_rt-shared" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="profile_rt-shared" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="profile_rt-static" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="profile_rt-static" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="remove-cstr-calls" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="remove-cstr-calls" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="remove-cstr-calls">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tool-template" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="tool-template" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="tool-template">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yaml-bench" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="yaml-bench" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="yaml-bench">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="yaml2obj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LLVM" TARGET_NAME="yaml2obj" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LLVM" RUN_TARGET_NAME="yaml2obj">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.check-all" />
+      <item itemvalue="Application.BrainF" />
+      <item itemvalue="Application.ExceptionDemo" />
+      <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.HowToUseJIT" />
+      <item itemvalue="Application.Kaleidoscope-Ch2" />
+      <item itemvalue="Application.Kaleidoscope-Ch3" />
+      <item itemvalue="Application.Kaleidoscope-Ch4" />
+      <item itemvalue="Application.Kaleidoscope-Ch5" />
+      <item itemvalue="Application.Kaleidoscope-Ch6" />
+      <item itemvalue="Application.Kaleidoscope-Ch7" />
+      <item itemvalue="Application.ModuleMaker" />
+      <item itemvalue="Application.ParallelJIT" />
+      <item itemvalue="Application.intrinsics_gen" />
+      <item itemvalue="Application.LLVMAnalysis" />
+      <item itemvalue="Application.LLVMipa" />
+      <item itemvalue="Application.LLVMArchive" />
+      <item itemvalue="Application.LLVMAsmParser" />
+      <item itemvalue="Application.LLVMBitReader" />
+      <item itemvalue="Application.LLVMBitWriter" />
+      <item itemvalue="Application.LLVMCodeGen" />
+      <item itemvalue="Application.LLVMAsmPrinter" />
+      <item itemvalue="Application.LLVMSelectionDAG" />
+      <item itemvalue="Application.LLVMDebugInfo" />
+      <item itemvalue="Application.LLVMExecutionEngine" />
+      <item itemvalue="Application.LLVMInterpreter" />
+      <item itemvalue="Application.LLVMJIT" />
+      <item itemvalue="Application.LLVMMCJIT" />
+      <item itemvalue="Application.LLVMRuntimeDyld" />
+      <item itemvalue="Application.LLVMCore" />
+      <item itemvalue="Application.LLVMIRReader" />
+      <item itemvalue="Application.LLVMLinker" />
+      <item itemvalue="Application.LLVMMC" />
+      <item itemvalue="Application.LLVMMCDisassembler" />
+      <item itemvalue="Application.LLVMMCParser" />
+      <item itemvalue="Application.LLVMObject" />
+      <item itemvalue="Application.LLVMOption" />
+      <item itemvalue="Application.LLVMSupport" />
+      <item itemvalue="Application.LLVMTableGen" />
+      <item itemvalue="Application.LLVMTarget" />
+      <item itemvalue="Application.AArch64CommonTableGen" />
+      <item itemvalue="Application.LLVMAArch64CodeGen" />
+      <item itemvalue="Application.LLVMAArch64AsmParser" />
+      <item itemvalue="Application.LLVMAArch64Disassembler" />
+      <item itemvalue="Application.LLVMAArch64AsmPrinter" />
+      <item itemvalue="Application.LLVMAArch64Desc" />
+      <item itemvalue="Application.LLVMAArch64Info" />
+      <item itemvalue="Application.LLVMAArch64Utils" />
+      <item itemvalue="Application.ARMCommonTableGen" />
+      <item itemvalue="Application.LLVMARMCodeGen" />
+      <item itemvalue="Application.LLVMARMAsmParser" />
+      <item itemvalue="Application.LLVMARMDisassembler" />
+      <item itemvalue="Application.LLVMARMAsmPrinter" />
+      <item itemvalue="Application.LLVMARMDesc" />
+      <item itemvalue="Application.LLVMARMInfo" />
+      <item itemvalue="Application.LLVMCppBackendCodeGen" />
+      <item itemvalue="Application.LLVMCppBackendInfo" />
+      <item itemvalue="Application.HexagonCommonTableGen" />
+      <item itemvalue="Application.LLVMHexagonCodeGen" />
+      <item itemvalue="Application.LLVMHexagonAsmPrinter" />
+      <item itemvalue="Application.LLVMHexagonDesc" />
+      <item itemvalue="Application.LLVMHexagonInfo" />
+      <item itemvalue="Application.LLVMMBlazeCodeGen" />
+      <item itemvalue="Application.MBlazeCommonTableGen" />
+      <item itemvalue="Application.LLVMMBlazeAsmParser" />
+      <item itemvalue="Application.LLVMMBlazeDisassembler" />
+      <item itemvalue="Application.LLVMMBlazeAsmPrinter" />
+      <item itemvalue="Application.LLVMMBlazeDesc" />
+      <item itemvalue="Application.LLVMMBlazeInfo" />
+      <item itemvalue="Application.LLVMMipsCodeGen" />
+      <item itemvalue="Application.MipsCommonTableGen" />
+      <item itemvalue="Application.LLVMMipsAsmParser" />
+      <item itemvalue="Application.LLVMMipsDisassembler" />
+      <item itemvalue="Application.LLVMMipsAsmPrinter" />
+      <item itemvalue="Application.LLVMMipsDesc" />
+      <item itemvalue="Application.LLVMMipsInfo" />
+      <item itemvalue="Application.LLVMMSP430CodeGen" />
+      <item itemvalue="Application.MSP430CommonTableGen" />
+      <item itemvalue="Application.LLVMMSP430AsmPrinter" />
+      <item itemvalue="Application.LLVMMSP430Desc" />
+      <item itemvalue="Application.LLVMMSP430Info" />
+      <item itemvalue="Application.LLVMNVPTXCodeGen" />
+      <item itemvalue="Application.NVPTXCommonTableGen" />
+      <item itemvalue="Application.LLVMNVPTXAsmPrinter" />
+      <item itemvalue="Application.LLVMNVPTXDesc" />
+      <item itemvalue="Application.LLVMNVPTXInfo" />
+      <item itemvalue="Application.LLVMPowerPCCodeGen" />
+      <item itemvalue="Application.PowerPCCommonTableGen" />
+      <item itemvalue="Application.LLVMPowerPCAsmParser" />
+      <item itemvalue="Application.LLVMPowerPCAsmPrinter" />
+      <item itemvalue="Application.LLVMPowerPCDesc" />
+      <item itemvalue="Application.LLVMPowerPCInfo" />
+      <item itemvalue="Application.LLVMSparcCodeGen" />
+      <item itemvalue="Application.SparcCommonTableGen" />
+      <item itemvalue="Application.LLVMSparcDesc" />
+      <item itemvalue="Application.LLVMSparcInfo" />
+      <item itemvalue="Application.LLVMSystemZCodeGen" />
+      <item itemvalue="Application.SystemZCommonTableGen" />
+      <item itemvalue="Application.LLVMSystemZAsmParser" />
+      <item itemvalue="Application.LLVMSystemZAsmPrinter" />
+      <item itemvalue="Application.LLVMSystemZDesc" />
+      <item itemvalue="Application.LLVMSystemZInfo" />
+      <item itemvalue="Application.LLVMX86CodeGen" />
+      <item itemvalue="Application.X86CommonTableGen" />
+      <item itemvalue="Application.LLVMX86AsmParser" />
+      <item itemvalue="Application.LLVMX86Disassembler" />
+      <item itemvalue="Application.LLVMX86AsmPrinter" />
+      <item itemvalue="Application.LLVMX86Desc" />
+      <item itemvalue="Application.LLVMX86Info" />
+      <item itemvalue="Application.LLVMX86Utils" />
+      <item itemvalue="Application.LLVMXCoreCodeGen" />
+      <item itemvalue="Application.XCoreCommonTableGen" />
+      <item itemvalue="Application.LLVMXCoreDisassembler" />
+      <item itemvalue="Application.LLVMXCoreAsmPrinter" />
+      <item itemvalue="Application.LLVMXCoreDesc" />
+      <item itemvalue="Application.LLVMXCoreInfo" />
+      <item itemvalue="Application.LLVMHello" />
+      <item itemvalue="Application.LLVMInstCombine" />
+      <item itemvalue="Application.LLVMInstrumentation" />
+      <item itemvalue="Application.LLVMipo" />
+      <item itemvalue="Application.LLVMObjCARCOpts" />
+      <item itemvalue="Application.LLVMScalarOpts" />
+      <item itemvalue="Application.LLVMTransformUtils" />
+      <item itemvalue="Application.LLVMVectorize" />
+      <item itemvalue="Application.compiler-rt-headers" />
+      <item itemvalue="Application.clang_rt.i386" />
+      <item itemvalue="Application.clang_rt.x86_64" />
+      <item itemvalue="Application.clang_rt.asan-i386" />
+      <item itemvalue="Application.clang_rt.asan-x86_64" />
+      <item itemvalue="Application.check-asan" />
+      <item itemvalue="Application.Asan-i386-Benchmark" />
+      <item itemvalue="Application.Asan-i386-Test" />
+      <item itemvalue="Application.Asan-x86_64-Benchmark" />
+      <item itemvalue="Application.Asan-x86_64-Test" />
+      <item itemvalue="Application.AsanBenchmarks" />
+      <item itemvalue="Application.AsanUnitTests" />
+      <item itemvalue="Application.RTInterception.i386" />
+      <item itemvalue="Application.RTInterception.x86_64" />
+      <item itemvalue="Application.clang_rt.msan-x86_64" />
+      <item itemvalue="Application.check-msan" />
+      <item itemvalue="Application.MsanUnitTests" />
+      <item itemvalue="Application.clang_rt.profile-i386" />
+      <item itemvalue="Application.clang_rt.profile-x86_64" />
+      <item itemvalue="Application.clang_rt.san-i386" />
+      <item itemvalue="Application.clang_rt.san-x86_64" />
+      <item itemvalue="Application.RTSanitizerCommon.i386" />
+      <item itemvalue="Application.RTSanitizerCommon.x86_64" />
+      <item itemvalue="Application.check-sanitizer" />
+      <item itemvalue="Application.RTSanitizerCommon.test.i386" />
+      <item itemvalue="Application.RTSanitizerCommon.test.x86_64" />
+      <item itemvalue="Application.Sanitizer-i386-Test" />
+      <item itemvalue="Application.Sanitizer-x86_64-Test" />
+      <item itemvalue="Application.SanitizerUnitTests" />
+      <item itemvalue="Application.check-tsan" />
+      <item itemvalue="Application.clang_rt.tsan-x86_64" />
+      <item itemvalue="Application.TsanUnitTests" />
+      <item itemvalue="Google Test.TsanRtlTest" />
+      <item itemvalue="Google Test.TsanUnitTest" />
+      <item itemvalue="Application.clang_rt.ubsan-i386" />
+      <item itemvalue="Application.clang_rt.ubsan-x86_64" />
+      <item itemvalue="Application.clang_rt.ubsan_cxx-i386" />
+      <item itemvalue="Application.clang_rt.ubsan_cxx-x86_64" />
+      <item itemvalue="Application.check-ubsan" />
+      <item itemvalue="Application.profile_rt-shared" />
+      <item itemvalue="Application.profile_rt-static" />
+      <item itemvalue="Application.check" />
+      <item itemvalue="Application.check-llvm" />
+      <item itemvalue="Application.BugpointPasses" />
+      <item itemvalue="Application.bugpoint" />
+      <item itemvalue="Application.SampleAnalyzerPlugin" />
+      <item itemvalue="Application.clang-interpreter" />
+      <item itemvalue="Application.PrintFunctionNames" />
+      <item itemvalue="Application.ClangAttrClasses" />
+      <item itemvalue="Application.ClangAttrDump" />
+      <item itemvalue="Application.ClangAttrImpl" />
+      <item itemvalue="Application.ClangCommentCommandInfo" />
+      <item itemvalue="Application.ClangCommentCommandList" />
+      <item itemvalue="Application.ClangCommentHTMLNamedCharacterReferences" />
+      <item itemvalue="Application.ClangCommentHTMLTags" />
+      <item itemvalue="Application.ClangCommentHTMLTagsProperties" />
+      <item itemvalue="Application.ClangCommentNodes" />
+      <item itemvalue="Application.ClangDeclNodes" />
+      <item itemvalue="Application.ClangStmtNodes" />
+      <item itemvalue="Application.ClangARMNeon" />
+      <item itemvalue="Application.ClangAttrList" />
+      <item itemvalue="Application.ClangDiagnosticAnalysis" />
+      <item itemvalue="Application.ClangDiagnosticAST" />
+      <item itemvalue="Application.ClangDiagnosticComment" />
+      <item itemvalue="Application.ClangDiagnosticCommon" />
+      <item itemvalue="Application.ClangDiagnosticDriver" />
+      <item itemvalue="Application.ClangDiagnosticFrontend" />
+      <item itemvalue="Application.ClangDiagnosticGroups" />
+      <item itemvalue="Application.ClangDiagnosticIndexName" />
+      <item itemvalue="Application.ClangDiagnosticLex" />
+      <item itemvalue="Application.ClangDiagnosticParse" />
+      <item itemvalue="Application.ClangDiagnosticSema" />
+      <item itemvalue="Application.ClangDiagnosticSerialization" />
+      <item itemvalue="Application.ClangCC1AsOptions" />
+      <item itemvalue="Application.ClangDriverOptions" />
+      <item itemvalue="Application.ClangAttrSpellings" />
+      <item itemvalue="Application.ClangAttrExprArgs" />
+      <item itemvalue="Application.ClangAttrLateParsed" />
+      <item itemvalue="Application.ClangAttrParsedAttrKinds" />
+      <item itemvalue="Application.ClangAttrParsedAttrList" />
+      <item itemvalue="Application.ClangAttrSpellingListIndex" />
+      <item itemvalue="Application.ClangAttrTemplateInstantiate" />
+      <item itemvalue="Application.ClangAttrPCHRead" />
+      <item itemvalue="Application.ClangAttrPCHWrite" />
+      <item itemvalue="Application.clangAnalysis" />
+      <item itemvalue="Application.clangARCMigrate" />
+      <item itemvalue="Application.clangAST" />
+      <item itemvalue="Application.clangASTMatchers" />
+      <item itemvalue="Application.clangBasic" />
+      <item itemvalue="Application.clangCodeGen" />
+      <item itemvalue="Application.clangDriver" />
+      <item itemvalue="Application.clangEdit" />
+      <item itemvalue="Application.clangFormat" />
+      <item itemvalue="Application.clangFrontend" />
+      <item itemvalue="Application.clangFrontendTool" />
+      <item itemvalue="Application.clang-headers" />
+      <item itemvalue="Application.clangLex" />
+      <item itemvalue="Application.clangParse" />
+      <item itemvalue="Application.clangRewriteCore" />
+      <item itemvalue="Application.clangRewriteFrontend" />
+      <item itemvalue="Application.clangSema" />
+      <item itemvalue="Application.clangSerialization" />
+      <item itemvalue="Application.ClangSACheckers" />
+      <item itemvalue="Application.clangStaticAnalyzerCheckers" />
+      <item itemvalue="Application.clangStaticAnalyzerCore" />
+      <item itemvalue="Application.clangStaticAnalyzerFrontend" />
+      <item itemvalue="Application.clangTooling" />
+      <item itemvalue="Application.check-clang" />
+      <item itemvalue="Application.clang-test" />
+      <item itemvalue="Application.arcmt-test" />
+      <item itemvalue="Application.c-arcmt-test" />
+      <item itemvalue="Application.c-index-test" />
+      <item itemvalue="Application.clang-check" />
+      <item itemvalue="Application.clang-format" />
+      <item itemvalue="Application.diagtool" />
+      <item itemvalue="Application.clang" />
+      <item itemvalue="Application.migrateCore" />
+      <item itemvalue="Application.cpp11-migrate" />
+      <item itemvalue="Application.modularize" />
+      <item itemvalue="Application.remove-cstr-calls" />
+      <item itemvalue="Application.check-clang-tools" />
+      <item itemvalue="Application.tool-template" />
+      <item itemvalue="Application.ExtraToolsUnitTests" />
+      <item itemvalue="Google Test.Cpp11MigrateTests" />
+      <item itemvalue="Application.libclang" />
+      <item itemvalue="Application.libclang_static" />
+      <item itemvalue="Application.ClangUnitTests" />
+      <item itemvalue="Google Test.ASTTests" />
+      <item itemvalue="Google Test.ASTMatchersTests" />
+      <item itemvalue="Google Test.BasicTests" />
+      <item itemvalue="Google Test.FormatTests" />
+      <item itemvalue="Google Test.FrontendTests" />
+      <item itemvalue="Google Test.LexTests" />
+      <item itemvalue="Google Test.ToolingTests" />
+      <item itemvalue="Application.clang-tblgen" />
+      <item itemvalue="Application.llc" />
+      <item itemvalue="Application.lli" />
+      <item itemvalue="Application.llvm-ar" />
+      <item itemvalue="Application.llvm-as" />
+      <item itemvalue="Application.llvm-bcanalyzer" />
+      <item itemvalue="Application.llvm-config" />
+      <item itemvalue="Application.llvm-cov" />
+      <item itemvalue="Application.llvm-diff" />
+      <item itemvalue="Application.llvm-dis" />
+      <item itemvalue="Application.llvm-dwarfdump" />
+      <item itemvalue="Application.llvm-extract" />
+      <item itemvalue="Application.llvm-link" />
+      <item itemvalue="Application.llvm-mc" />
+      <item itemvalue="Application.llvm-mcmarkup" />
+      <item itemvalue="Application.llvm-nm" />
+      <item itemvalue="Application.llvm-objdump" />
+      <item itemvalue="Application.llvm-prof" />
+      <item itemvalue="Application.llvm-ranlib" />
+      <item itemvalue="Application.llvm-readobj" />
+      <item itemvalue="Application.llvm-rtdyld" />
+      <item itemvalue="Application.llvm-size" />
+      <item itemvalue="Application.llvm-stress" />
+      <item itemvalue="Application.llvm-symbolizer" />
+      <item itemvalue="Application.LTO" />
+      <item itemvalue="Application.LTO_static" />
+      <item itemvalue="Application.macho-dump" />
+      <item itemvalue="Application.obj2yaml" />
+      <item itemvalue="Application.opt" />
+      <item itemvalue="Application.yaml2obj" />
+      <item itemvalue="Application.UnitTests" />
+      <item itemvalue="Google Test.ADTTests" />
+      <item itemvalue="Google Test.AnalysisTests" />
+      <item itemvalue="Google Test.BitcodeTests" />
+      <item itemvalue="Google Test.DebugInfoTests" />
+      <item itemvalue="Google Test.ExecutionEngineTests" />
+      <item itemvalue="Google Test.JITTests" />
+      <item itemvalue="Google Test.MCJITTests" />
+      <item itemvalue="Google Test.IRTests" />
+      <item itemvalue="Google Test.OptionTests" />
+      <item itemvalue="Application.OptsTestTableGen" />
+      <item itemvalue="Google Test.SupportTests" />
+      <item itemvalue="Google Test.UtilsTests" />
+      <item itemvalue="Application.count" />
+      <item itemvalue="Application.FileCheck" />
+      <item itemvalue="Application.FileUpdate" />
+      <item itemvalue="Application.not" />
+      <item itemvalue="Application.llvm-tblgen" />
+      <item itemvalue="Application.gtest" />
+      <item itemvalue="Application.gtest_main" />
+      <item itemvalue="Application.yaml-bench" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c7b57a4-349a-48c9-9ae4-cdecee979431" name="Default Changelist" comment="" />
+      <created>1554286470492</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554286470492</updated>
+      <workItem from="1554286505235" duration="7514000" />
+      <workItem from="1554344504398" duration="2522000" />
+      <workItem from="1554817926249" duration="3094000" />
+      <workItem from="1555035167850" duration="2611000" />
+      <workItem from="1555639350146" duration="1279000" />
+      <workItem from="1555733207943" duration="1412000" />
+      <workItem from="1555820965258" duration="2724000" />
+      <workItem from="1555897142545" duration="1284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="22440000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16436082" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20942408" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.19685864" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tools/clang/include/clang/Lex/Pragma.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/MyHello/MyHello.exports" />
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/MyHello/MyHello.cpp" />
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/InstCombine/InstCombineAddSub.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/MyHello/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/lib/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/clang/lib/Lex/Pragma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/LLVMBuild.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/Hello/Hello.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/Hello/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/Hello/Hello.exports">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Transforms/Hello/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/clang/include/clang/Basic/TokenKinds.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/clang/lib/Parse/ParsePragma.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="105" column="42" lean-forward="true" selection-start-line="105" selection-start-column="42" selection-end-line="105" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
