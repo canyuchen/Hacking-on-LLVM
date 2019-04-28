@@ -363,6 +363,10 @@ void Sema::ActOnPragmaVisibility(const IdentifierInfo* VisType,
   }
 }
 
+void Sema::ActOnPragmaElementWise(){
+  IsElementWise = 1;
+}
+
 void Sema::ActOnPragmaFPContract(tok::OnOffSwitch OOS) {
   switch (OOS) {
   case tok::OOS_ON:

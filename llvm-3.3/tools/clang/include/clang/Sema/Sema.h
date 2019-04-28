@@ -265,6 +265,8 @@ public:
   /// if Sema is already doing so, which would cause infinite recursions.
   bool IsBuildingRecoveryCallExpr;
 
+  bool IsElementWise;
+
   /// ExprNeedsCleanups - True if the current evaluation context
   /// requires cleanups to be run at its conclusion.
   bool ExprNeedsCleanups;
@@ -2718,6 +2720,8 @@ public:
                                    SourceLocation DotDotDotLoc, Expr *RHSVal,
                                    SourceLocation ColonLoc);
   void ActOnCaseStmtBody(Stmt *CaseStmt, Stmt *SubStmt);
+
+  void ActOnPragmaElementWise();
 
   StmtResult ActOnDefaultStmt(SourceLocation DefaultLoc,
                                       SourceLocation ColonLoc,

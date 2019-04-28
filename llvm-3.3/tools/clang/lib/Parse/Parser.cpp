@@ -63,6 +63,9 @@ Parser::Parser(Preprocessor &pp, Sema &actions, bool skipFunctionBodies)
 
   // Add #pragma handlers. These are removed and destroyed in the
   // destructor.
+  ElementWiseHandler.reset(new PragmaElementWiseHandler());
+  PP.AddPragmaHandler(ElementWiseHandler.get());
+
   AlignHandler.reset(new PragmaAlignHandler());
   PP.AddPragmaHandler(AlignHandler.get());
 
@@ -416,6 +419,9 @@ Parser::~Parser() {
     delete it->second;
 
   // Remove the pragma handlers we installed.
+  PP.RemovePragmaHandler(ElementWiseHandler.get());
+  ElementWiseHandler.reset();
+
   PP.RemovePragmaHandler(AlignHandler.get());
   AlignHandler.reset();
   PP.RemovePragmaHandler("GCC", GCCVisibilityHandler.get());
@@ -644,6 +650,10 @@ Parser::ParseExternalDeclaration(ParsedAttributesWithRange &attrs,
   case tok::annot_pragma_openmp:
     ParseOpenMPDeclarativeDirective();
     return DeclGroupPtrTy();
+  case tok::annot_pragma_element_wise:
+    HandlePragmaElementWise();
+    return DeclGroupPtrTy();
+  
   case tok::semi:
     // Either a C++11 empty-declaration or attribute-declaration.
     SingleDecl = Actions.ActOnEmptyDeclaration(getCurScope(),

@@ -661,6 +661,9 @@ ANNOTATION(pragma_opencl_extension)
 ANNOTATION(pragma_openmp)
 ANNOTATION(pragma_openmp_end)
 
+// Annotations for #pragma elementWise
+ANNOTATION(pragma_element_wise)
+
 #undef ANNOTATION
 #undef TESTING_KEYWORD
 #undef OBJC2_AT_KEYWORD

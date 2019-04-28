@@ -121,6 +121,16 @@ public:
                             Token &FirstToken);
 };
 
+/// PragmaElementWiseHandler - "\#pragma elementWise"
+class PragmaElementWiseHandler : public PragmaHandler {
+public:
+  PragmaElementWiseHandler() : PragmaHandler("elementWise") {}
+  virtual void HandlePragma(Preprocessor &PP, PragmaIntroducerKind Introducer,
+                            Token &FirstToken);
+  
+};
+
+
 }  // end namespace clang
 
 #endif

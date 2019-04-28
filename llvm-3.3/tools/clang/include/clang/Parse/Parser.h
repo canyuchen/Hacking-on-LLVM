@@ -150,6 +150,7 @@ class Parser : public CodeCompletionHandler {
   OwningPtr<CommentHandler> CommentSemaHandler;
   OwningPtr<PragmaHandler> OpenMPHandler;
   OwningPtr<PragmaHandler> MSCommentHandler;
+  OwningPtr<PragmaHandler> ElementWiseHandler;
 
   /// Whether the '>' token acts as an operator or not. This will be
   /// true except when we are parsing an expression within a C++
@@ -417,6 +418,10 @@ private:
   /// \brief Handle the annotation token produced for
   /// #pragma ms_struct...
   void HandlePragmaMSStruct();
+
+  /// \brief Handle the annotation token produced for
+  /// #pragma elementWise
+  void HandlePragmaElementWise();
 
   /// \brief Handle the annotation token produced for
   /// #pragma align...

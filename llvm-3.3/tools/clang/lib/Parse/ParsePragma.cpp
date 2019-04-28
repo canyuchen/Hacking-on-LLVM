@@ -71,6 +71,12 @@ void Parser::HandlePragmaMSStruct() {
   ConsumeToken(); // The annotation token.
 }
 
+void Parser::HandlePragmaElementWise() {
+  assert(Tok.is(tok::annot_pragma_element_wise));
+  ConsumeToken(); // The annotation token.
+  Actions.ActOnPragmaElementWise();
+}
+
 void Parser::HandlePragmaAlign() {
   assert(Tok.is(tok::annot_pragma_align));
   Sema::PragmaOptionsAlignKind Kind =
@@ -857,4 +863,29 @@ void PragmaCommentHandler::HandlePragma(Preprocessor &PP,
   // If the pragma is lexically sound, notify any interested PPCallbacks.
   if (PP.getPPCallbacks())
     PP.getPPCallbacks()->PragmaComment(CommentLoc, II, ArgumentString);
+}
+
+/// \brief Handle '#pragma elementWise' before a Function.
+///
+void PragmaElementWiseHandler::HandlePragma(Preprocessor &PP, 
+                                            PragmaIntroducerKind Introducer,
+                                            Token &ElementWiseTok) {
+
+    Token Tok;
+    PP.Lex(Tok);
+    /// now to check pragma elementwise
+    if (Tok.isNot(tok::eod)) {// end of line
+        PP.Diag(Tok.getLocation(), diag::warn_pragma_extra_tokens_at_eol) << "elementwise";
+        return;
+    }
+
+    Token *Toks =
+        (Token*) PP.getPreprocessorAllocator().Allocate(
+        sizeof(Token) * 1, llvm::alignOf<Token>());
+    new (Toks) Token();
+    Toks[0].startToken();
+    Toks[0].setKind(tok::annot_pragma_element_wise);
+    Toks[0].setLocation(ElementWiseTok.getLocation());
+    
+    PP.EnterTokenStream(Toks, 1, true, false );
 }

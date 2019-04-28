@@ -1410,6 +1410,8 @@ private:
   bool IsLateTemplateParsed : 1;
   bool IsConstexpr : 1;
 
+  bool IsElementWise : 1;
+
   /// \brief Indicates if the function was a definition but its body was
   /// skipped.
   unsigned HasSkippedBody : 1;
@@ -1555,6 +1557,9 @@ public:
   void setRangeEnd(SourceLocation E) { EndRangeLoc = E; }
 
   virtual SourceRange getSourceRange() const LLVM_READONLY;
+
+  void setIsElementWise(bool isElementWise){IsElementWise = isElementWise;}
+  bool getIsElementWise() const { return IsElementWise; }
 
   /// \brief Returns true if the function has a body (definition). The
   /// function body might be in any of the (re-)declarations of this

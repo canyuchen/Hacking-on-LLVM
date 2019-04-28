@@ -8880,6 +8880,8 @@ Decl *Sema::ActOnFinishFunctionBody(Decl *dcl, Stmt *Body,
 
   if (FD) {
     FD->setBody(Body);
+    FD->setIsElementWise(IsElementWise);
+    IsElementWise = 0;
 
     if (getLangOpts().CPlusPlus1y && !FD->isInvalidDecl() &&
         !FD->isDependentContext()) {
