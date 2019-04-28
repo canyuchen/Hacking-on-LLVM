@@ -18,16 +18,20 @@
 #include "clang/Frontend/CompilerInstance.h"
 #include "llvm/Support/raw_ostream.h"
 using namespace clang;
+// using namespace std;
 
 namespace {
 
 class PrintFunctionsConsumer : public ASTConsumer {
 public:
   virtual bool HandleTopLevelDecl(DeclGroupRef DG) {
+	llvm::errs() << "One Decl" << endl;
+	//llvm::errs() << "One Decl" << std::endl;
     for (DeclGroupRef::iterator i = DG.begin(), e = DG.end(); i != e; ++i) {
       const Decl *D = *i;
-      if (const NamedDecl *ND = dyn_cast<NamedDecl>(D))
-        llvm::errs() << "top-level-decl: \"" << ND->getNameAsString() << "\"\n";
+      if (const FunctionDecl *FD = dyn_cast<FunctionDecl>(D)) 
+        // llvm::errs() << "top-level-decl: \"" << FD->getNameAsString() << ":" << FD -> getAsCheckRule() << "\n" ;
+        llvm::errs() << "top-level-decl: \"" << FD->getNameAsString() << ":" << FD -> getIsElementWise() << "\n" ;
     }
 
     return true;

@@ -9,6 +9,7 @@
 
 CLANG_LEVEL := ..
 
-PARALLEL_DIRS := analyzer-plugin clang-interpreter PrintFunctionNames
+PARALLEL_DIRS := analyzer-plugin clang-interpreter PrintFunctionNames TraverseFunctionDecls
+#PARALLEL_DIRS := analyzer-plugin clang-interpreter PrintFunctionNames
 
 include $(CLANG_LEVEL)/Makefile
