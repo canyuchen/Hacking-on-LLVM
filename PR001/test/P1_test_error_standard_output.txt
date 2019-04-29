@@ -1,0 +1,2 @@
+foo: 0
+[testing] P1_test_error.c

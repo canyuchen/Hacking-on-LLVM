@@ -1,0 +1,4 @@
+/home/clang9/test/P1_test_error.c:1:21: error: extra tokens at end of '#pragma elementwise' - ignored
+#pragma elementWise 1
+                    ^
+1 error generated.
