@@ -5919,6 +5919,16 @@ Sema::CheckAssignmentConstraints(QualType LHSType, ExprResult &RHS,
   LHSType = Context.getCanonicalType(LHSType).getUnqualifiedType();
   RHSType = Context.getCanonicalType(RHSType).getUnqualifiedType();
 
+  // // Check element-wise case
+  // // const Expr* rhs_expr = RHS.get();
+  // // const Type* rhs_type = rhs_expr -> getType().getTypePtr();
+  // // const ConstantArrayType* rhs_t = dyn_cast<ConstantArrayType>(rhs_type);
+
+  // // if(RHS.get()->isRValue() && ConstantArrayType::classof(RHS.get()->getType().getTypePtr())) {
+  // if(ConstantArrayType::classof(RHS.get()->getType().getTypePtr())) {
+  //   return Compatible;
+  // }
+
   // Common case: no conversion required.
   if (LHSType == RHSType) {
     Kind = CK_NoOp;
@@ -6249,6 +6259,17 @@ Sema::CheckTransparentUnionArgumentConstraints(QualType ArgType,
 Sema::AssignConvertType
 Sema::CheckSingleAssignmentConstraints(QualType LHSType, ExprResult &RHS,
                                        bool Diagnose) {
+
+  // Check element-wise case
+  // const Expr* rhs_expr = RHS.get();
+  // const Type* rhs_type = rhs_expr -> getType().getTypePtr();
+  // const ConstantArrayType* rhs_t = dyn_cast<ConstantArrayType>(rhs_type);
+
+  // if(RHS.get()->isRValue() && ConstantArrayType::classof(RHS.get()->getType().getTypePtr())) {
+  if(IsElementWise == 1 && ConstantArrayType::classof(RHS.get()->getType().getTypePtr())) {
+    return Compatible;
+  }
+  
   if (getLangOpts().CPlusPlus) {
     if (!LHSType->isRecordType() && !LHSType->isAtomicType()) {
       // C++ 5.17p3: If the left operand is not of class type, the
@@ -6470,6 +6491,65 @@ QualType Sema::CheckMultiplyDivideOperands(ExprResult &LHS, ExprResult &RHS,
   if (LHS.get()->getType()->isVectorType() ||
       RHS.get()->getType()->isVectorType())
     return CheckVectorOperands(LHS, RHS, Loc, IsCompAssign);
+
+  if(IsElementWise == 1 && 
+     ConstantArrayType::classof(LHS.get()->getType().getTypePtr()) &&
+     ConstantArrayType::classof(RHS.get()->getType().getTypePtr())){
+       //Element-wise operations
+    const Expr* lhs_expr = LHS.get();
+    const Type* lhs_type = lhs_expr -> getType().getTypePtr();
+    const Expr* rhs_expr = RHS.get();
+    const Type* rhs_type = rhs_expr -> getType().getTypePtr();
+
+    const ConstantArrayType* lhs_t = dyn_cast<ConstantArrayType>(lhs_type);
+    const ConstantArrayType* rhs_t = dyn_cast<ConstantArrayType>(rhs_type);
+
+    const llvm::APInt lhs_data_num = lhs_t->getSize();
+    const llvm::APInt rhs_data_num = rhs_t->getSize();
+
+    QualType lhs_data_t = lhs_t -> getElementType().getUnqualifiedType();
+    QualType rhs_data_t = rhs_t -> getElementType().getUnqualifiedType();
+
+    if(lhs_data_num == rhs_data_num){
+      if(lhs_data_t == rhs_data_t){
+        if(lhs_data_t->isIntegerType() && rhs_data_t->isIntegerType()){
+          if(!(lhs_expr -> isRValue())){
+            Qualifiers tmp;
+            ImplicitCastExpr *l_to_r_lhs = ImplicitCastExpr::Create(Context, \
+              Context.getUnqualifiedArrayType(lhs_expr -> getType().getUnqualifiedType(), tmp), \
+              CK_LValueToRValue, const_cast<Expr*>(lhs_expr), 0, VK_RValue);
+            LHS = l_to_r_lhs;
+          }
+          if(!(rhs_expr -> isRValue())){
+            Qualifiers tmp;
+            ImplicitCastExpr *l_to_r_rhs = ImplicitCastExpr::Create(Context, 
+              Context.getUnqualifiedArrayType(rhs_expr -> getType().getUnqualifiedType(), tmp), \
+              CK_LValueToRValue, const_cast<Expr*>(rhs_expr), 0, VK_RValue);
+            RHS = l_to_r_rhs;
+          }
+          return LHS.get() -> getType();                
+        }
+        else if(!lhs_data_t->isIntegerType()) {
+          this->Diag(Loc, diag::err_left_array_element_type_not_integer);
+          return QualType();          
+        }
+        else if(!rhs_data_t->isIntegerType()) {
+          this->Diag(Loc, diag::err_right_array_element_type_not_integer);
+          return QualType();     
+        }
+      }
+      else {
+        this->Diag(Loc, diag::err_array_element_type_incompatible);
+        return QualType();        
+      }
+    }
+    else {
+      this->Diag(Loc, diag::err_array_range_incompatible);
+      return QualType();
+    }
+  }
+
+  //类型提升，保证类型一致
 
   QualType compType = UsualArithmeticConversions(LHS, RHS, IsCompAssign);
   if (LHS.isInvalid() || RHS.isInvalid())
@@ -6715,6 +6795,64 @@ QualType Sema::CheckAdditionOperands( // C99 6.5.6
     return compType;
   }
 
+  if(IsElementWise == 1 && 
+     ConstantArrayType::classof(LHS.get()->getType().getTypePtr()) &&
+     ConstantArrayType::classof(RHS.get()->getType().getTypePtr())){
+       //Element-wise operations
+    const Expr* lhs_expr = LHS.get();
+    const Type* lhs_type = lhs_expr -> getType().getTypePtr();
+    const Expr* rhs_expr = RHS.get();
+    const Type* rhs_type = rhs_expr -> getType().getTypePtr();
+
+    const ConstantArrayType* lhs_t = dyn_cast<ConstantArrayType>(lhs_type);
+    const ConstantArrayType* rhs_t = dyn_cast<ConstantArrayType>(rhs_type);
+
+    const llvm::APInt lhs_data_num = lhs_t->getSize();
+    const llvm::APInt rhs_data_num = rhs_t->getSize();
+
+    QualType lhs_data_t = lhs_t -> getElementType().getUnqualifiedType();
+    QualType rhs_data_t = rhs_t -> getElementType().getUnqualifiedType();
+
+    if(lhs_data_num == rhs_data_num){
+      if(lhs_data_t == rhs_data_t){
+        if(lhs_data_t->isIntegerType() && rhs_data_t->isIntegerType()){
+          if(!(lhs_expr -> isRValue())){
+            Qualifiers tmp;
+            ImplicitCastExpr *l_to_r_lhs = ImplicitCastExpr::Create(Context, \
+              Context.getUnqualifiedArrayType(lhs_expr -> getType().getUnqualifiedType(), tmp), \
+              CK_LValueToRValue, const_cast<Expr*>(lhs_expr), 0, VK_RValue);
+            LHS = l_to_r_lhs;
+          }
+          if(!(rhs_expr -> isRValue())){
+            Qualifiers tmp;
+            ImplicitCastExpr *l_to_r_rhs = ImplicitCastExpr::Create(Context, 
+              Context.getUnqualifiedArrayType(rhs_expr -> getType().getUnqualifiedType(), tmp), \
+              CK_LValueToRValue, const_cast<Expr*>(rhs_expr), 0, VK_RValue);
+            RHS = l_to_r_rhs;
+          }
+          return LHS.get() -> getType();                
+        }
+        else if(!lhs_data_t->isIntegerType()) {
+          this->Diag(Loc, diag::err_left_array_element_type_not_integer);
+          return QualType();          
+        }
+        else if(!rhs_data_t->isIntegerType()) {
+          this->Diag(Loc, diag::err_right_array_element_type_not_integer);
+          return QualType();     
+        }
+      }
+      else {
+        this->Diag(Loc, diag::err_array_element_type_incompatible);
+        return QualType();
+      }
+    }
+    else {
+      this->Diag(Loc, diag::err_array_range_incompatible);
+      return QualType();
+    }
+  }
+
+  //类型提升，保证类型一致
   QualType compType = UsualArithmeticConversions(LHS, RHS, CompLHSTy);
   if (LHS.isInvalid() || RHS.isInvalid())
     return QualType();
@@ -7868,6 +8006,15 @@ static NonConstCaptureKind isReferenceToNonConstCapture(Sema &S, Expr *E) {
 /// emit an error and return true.  If so, return false.
 static bool CheckForModifiableLvalue(Expr *E, SourceLocation Loc, Sema &S) {
   assert(!E->hasPlaceholderType(BuiltinType::PseudoObject));
+
+  if(S.IsElementWise == 1) {
+    Expr::Classification VC = E->ClassifyModifiable(S.Context, Loc);
+    if(VC.getKind() == Expr::Classification::CL_LValue && 
+       VC.getModifiable() == Expr::Classification::CM_ArrayType) {
+      return false;
+    }
+  }
+
   SourceLocation OrigLoc = Loc;
   Expr::isModifiableLvalueResult IsLV = E->isModifiableLvalue(S.Context,
                                                               &Loc);
@@ -8005,6 +8152,56 @@ QualType Sema::CheckAssignmentOperands(Expr *LHSExpr, ExprResult &RHS,
                                        QualType CompoundType) {
   assert(!LHSExpr->hasPlaceholderType(BuiltinType::PseudoObject));
 
+  if(IsElementWise == 1 && 
+    //  ConstantArrayType::classof(LHS.get()->getType().getTypePtr()) &&
+     ConstantArrayType::classof(LHSExpr->getType().getTypePtr()) &&
+     ConstantArrayType::classof(RHS.get()->getType().getTypePtr())){
+       //Element-wise operations
+    // const Expr* lhs_expr = LHS.get();
+    const Expr* lhs_expr = LHSExpr;
+    const Type* lhs_type = lhs_expr -> getType().getTypePtr();
+    const Expr* rhs_expr = RHS.get();
+    const Type* rhs_type = rhs_expr -> getType().getTypePtr();
+
+    const ConstantArrayType* lhs_t = dyn_cast<ConstantArrayType>(lhs_type);
+    const ConstantArrayType* rhs_t = dyn_cast<ConstantArrayType>(rhs_type);
+
+    const llvm::APInt lhs_data_num = lhs_t->getSize();
+    const llvm::APInt rhs_data_num = rhs_t->getSize();
+
+    QualType lhs_data_t = lhs_t -> getElementType().getUnqualifiedType();
+    QualType rhs_data_t = rhs_t -> getElementType().getUnqualifiedType();
+
+    if(lhs_data_num != rhs_data_num){
+      this->Diag(Loc, diag::err_array_range_incompatible);
+      return QualType();
+    }
+    if(lhs_data_t != rhs_data_t) {
+      this->Diag(Loc, diag::err_array_element_type_incompatible);
+      return QualType();
+    }
+    if(!lhs_data_t->isIntegerType()) {
+      this->Diag(Loc, diag::err_left_array_element_type_not_integer);
+      return QualType();          
+    }
+    if(!rhs_data_t->isIntegerType()) {
+      this->Diag(Loc, diag::err_right_array_element_type_not_integer);
+      return QualType();     
+    }
+  }
+
+
+  // DEBUG 1
+  // Verify that LHS is a modifiable lvalue, and emit error if not.
+  // if (CheckForModifiableLvalue(LHSExpr, Loc, *this))
+  //   return QualType();
+
+  // // DEBUG 2
+  // // Verify that LHS is a modifiable lvalue, and emit error if not.
+  // if (CheckForModifiableLvalue(LHSExpr, Loc, *this));
+  // //   return QualType();
+
+  // DEBUG 3
   // Verify that LHS is a modifiable lvalue, and emit error if not.
   if (CheckForModifiableLvalue(LHSExpr, Loc, *this))
     return QualType();
@@ -8088,6 +8285,17 @@ QualType Sema::CheckAssignmentOperands(Expr *LHSExpr, ExprResult &RHS,
     ConvTy = CheckAssignmentConstraints(Loc, LHSType, RHSType);
   }
 
+  // DEBUG 1 : comment all
+  // if (DiagnoseAssignmentResult(ConvTy, Loc, LHSType, RHSType,
+  //                              RHS.get(), AA_Assigning))
+  //   return QualType();
+
+  // // DEBUG 2 : comment return
+  // if (DiagnoseAssignmentResult(ConvTy, Loc, LHSType, RHSType,
+  //                              RHS.get(), AA_Assigning));
+  // //   return QualType();
+
+  // DEBUG 3
   if (DiagnoseAssignmentResult(ConvTy, Loc, LHSType, RHSType,
                                RHS.get(), AA_Assigning))
     return QualType();
@@ -11424,7 +11632,7 @@ bool Sema::tryCaptureVariable(VarDecl *Var, SourceLocation Loc,
       // C++ [expr.prim.lambda]p5:
       //   The closure type for a lambda-expression has a public inline 
       //   function call operator [...]. This function call operator is 
-      //   declared const (9.3.1) if and only if the lambda-expression’s 
+      //   declared const (9.3.1) if and only if the lambda-expressionâ€™s 
       //   parameter-declaration-clause is not followed by mutable.
       DeclRefType = CaptureType.getNonReferenceType();
       if (!LSI->Mutable && !CaptureType->isReferenceType())

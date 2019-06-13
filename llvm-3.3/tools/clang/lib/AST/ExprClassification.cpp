@@ -658,6 +658,8 @@ Expr::isModifiableLvalue(ASTContext &Ctx, SourceLocation *Loc) const {
   case Cl::CM_NoSetterProperty: return MLV_NoSetterProperty;
   case Cl::CM_ConstQualified: return MLV_ConstQualified;
   case Cl::CM_ArrayType: return MLV_ArrayType;
+  // case Cl::CM_ArrayType: return MLV_Valid;
+  // test passed
   case Cl::CM_IncompleteType: return MLV_IncompleteType;
   }
   llvm_unreachable("Unhandled modifiable type");

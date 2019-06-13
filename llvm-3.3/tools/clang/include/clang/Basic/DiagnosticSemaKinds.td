@@ -5200,6 +5200,15 @@ def err_typecheck_incompatible_ownership : Error<
 def err_typecheck_comparison_of_distinct_blocks : Error<
   "comparison of distinct block types%diff{ ($ and $)|}0,1">;
 
+def err_array_range_incompatible : Error<
+  "array range is incompatible">;
+def err_array_element_type_incompatible : Error<
+  "array element type is incompatible">;
+def err_left_array_element_type_not_integer : Error<
+  "on the left of the operand, array element type is not integer">;
+def err_right_array_element_type_not_integer : Error<
+  "on the right of the operand, array element type is not integer">;
+
 def err_typecheck_array_not_modifiable_lvalue : Error<
   "array type %0 is not assignable">;
 def err_typecheck_non_object_not_modifiable_lvalue : Error<
