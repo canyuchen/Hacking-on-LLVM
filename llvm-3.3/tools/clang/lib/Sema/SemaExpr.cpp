@@ -6512,7 +6512,8 @@ QualType Sema::CheckMultiplyDivideOperands(ExprResult &LHS, ExprResult &RHS,
 
     if(lhs_data_num == rhs_data_num){
       if(lhs_data_t == rhs_data_t){
-        if(lhs_data_t->isIntegerType() && rhs_data_t->isIntegerType()){
+        // if(lhs_data_t->isIntegerType() && rhs_data_t->isIntegerType()){
+        if(lhs_data_t->isOnlyIntegerType() && rhs_data_t->isOnlyIntegerType()){
           if(!(lhs_expr -> isRValue())){
             Qualifiers tmp;
             ImplicitCastExpr *l_to_r_lhs = ImplicitCastExpr::Create(Context, \
@@ -6529,11 +6530,13 @@ QualType Sema::CheckMultiplyDivideOperands(ExprResult &LHS, ExprResult &RHS,
           }
           return LHS.get() -> getType();                
         }
-        else if(!lhs_data_t->isIntegerType()) {
+        // else if(!lhs_data_t->isIntegerType()) {
+        else if(!lhs_data_t->isOnlyIntegerType()) {
           this->Diag(Loc, diag::err_left_array_element_type_not_integer);
           return QualType();          
         }
-        else if(!rhs_data_t->isIntegerType()) {
+        // else if(!rhs_data_t->isIntegerType()) {
+        else if(!rhs_data_t->isOnlyIntegerType()) {
           this->Diag(Loc, diag::err_right_array_element_type_not_integer);
           return QualType();     
         }
@@ -6815,7 +6818,8 @@ QualType Sema::CheckAdditionOperands( // C99 6.5.6
 
     if(lhs_data_num == rhs_data_num){
       if(lhs_data_t == rhs_data_t){
-        if(lhs_data_t->isIntegerType() && rhs_data_t->isIntegerType()){
+        // if(lhs_data_t->isIntegerType() && rhs_data_t->isIntegerType()){
+        if(lhs_data_t->isOnlyIntegerType() && rhs_data_t->isOnlyIntegerType()){
           if(!(lhs_expr -> isRValue())){
             Qualifiers tmp;
             ImplicitCastExpr *l_to_r_lhs = ImplicitCastExpr::Create(Context, \
@@ -6832,11 +6836,13 @@ QualType Sema::CheckAdditionOperands( // C99 6.5.6
           }
           return LHS.get() -> getType();                
         }
-        else if(!lhs_data_t->isIntegerType()) {
+        // else if(!lhs_data_t->isIntegerType()) {
+        else if(!lhs_data_t->isOnlyIntegerType()) {
           this->Diag(Loc, diag::err_left_array_element_type_not_integer);
           return QualType();          
         }
-        else if(!rhs_data_t->isIntegerType()) {
+        // else if(!rhs_data_t->isIntegerType()) {
+        else if(!rhs_data_t->isOnlyIntegerType()) {
           this->Diag(Loc, diag::err_right_array_element_type_not_integer);
           return QualType();     
         }
@@ -8180,11 +8186,13 @@ QualType Sema::CheckAssignmentOperands(Expr *LHSExpr, ExprResult &RHS,
       this->Diag(Loc, diag::err_array_element_type_incompatible);
       return QualType();
     }
-    if(!lhs_data_t->isIntegerType()) {
+    // if(!lhs_data_t->isIntegerType()) {
+    if(!lhs_data_t->isOnlyIntegerType()) {
       this->Diag(Loc, diag::err_left_array_element_type_not_integer);
       return QualType();          
     }
-    if(!rhs_data_t->isIntegerType()) {
+    // if(!rhs_data_t->isIntegerType()) {
+    if(!rhs_data_t->isOnlyIntegerType()) {
       this->Diag(Loc, diag::err_right_array_element_type_not_integer);
       return QualType();     
     }
