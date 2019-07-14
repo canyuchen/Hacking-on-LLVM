@@ -700,6 +700,7 @@ void CodeGenFunction::GenerateCode(GlobalDecl GD, llvm::Function *Fn,
   }
   else
     EmitFunctionBody(Args);
+    //TODO
 
   // C++11 [stmt.return]p2:
   //   Flowing off the end of a function [...] results in undefined behavior in
